@@ -9,11 +9,15 @@ print("*         Type 'Start' to Begin the Game!        *")
 print(asterisks + "\n")
 
 while True:
-    start = input()         
-    if start == "exit":
-        exit()
-    if start == "start" or "Start" or "START":
+    start = input().lower().strip()
+    if start == "start":
         break
+    elif start == "exit":
+        exit()
+
+    else:
+        print("Would you like to go again?")
+        
 while True:
     print()
     name = input("Hello there traveller! What is your name? ")

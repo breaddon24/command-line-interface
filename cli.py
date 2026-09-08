@@ -92,3 +92,13 @@ print(asterisks)
 print()
 
 print(f"Buckle Up {name}! And welcome to The Legend of KHABEN FIBRE!!!")
+
+# ---------------------------------------------------------------------------------------------------------------
+print(" LOADING . . . . . . .")
+print(asterisks)
+print(f"""
+You know even if your {age} years old, I know you can survive within this world of unknown {name},
+I'm being honest you are a one in a million, I doubt there is anyone else like you, which is why I'm choosing YOU!
+To lead this quest that will come with lots of challenges, but don't worry I'll explain everything shortly
+""")
+print(asterisks)
